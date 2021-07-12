@@ -6,16 +6,10 @@ using System.Web.Mvc;
 
 namespace tesdtParcial2.Controllers
 {
-    public class HomeController : Controller
+    public class AfiliadoController : Controller
     {
-        // GET: Home
+        // GET: Afiliado
         public ActionResult Index()
-        {
-            return View();
-        }
-
-        // GET: About
-        public ActionResult About()
         {
             return View();
         }

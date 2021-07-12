@@ -60,10 +60,10 @@ body {
         width: 78%;
     }
 
-    #contenido #secundario {
-        float: right;
-        width: 20%;
-    }
+#contenido #secundario {
+    float: right;
+    width: 20%;
+}
 
 #pie {
     clear: both;
@@ -116,23 +116,23 @@ body {
 
     #menu ul li a {
         text-decoration: none;
+        color: blue;
     }
-
-
 
     #cabecera h1 {
         background: url(logo.jpg) no-repeat 0px 0px;
         width: 250px;
-        height: 33px;
+        height: 50px;
     }
 
         #cabecera h1 span {
             visibility: hidden;
         }
 
-#menu {
-    margin-bottom: .5em;
-    /*border-bottom: 1px solid #004C99;*/
+#contenido {
+    margin-top: .5em;
+    border-top: 1px solid blue;
+    padding-bottom: .5em;
 }
 
 #contenido {
@@ -148,10 +148,11 @@ body {
         border: 1px solid #d41010;
     }
 
-#secundario h2 {
-    background: #d41010;
-    padding: .2em;
-    color: #fff
+#nuevoAfiliado {
+    background: white !important;
+    padding: .2em !important;
+    color: black !important;
+    text-decoration: none !important;
 }
 
 #pie {
@@ -188,6 +189,22 @@ body {
         padding-top: 12px;
         padding-bottom: 12px;
         text-align: left;
-        background-color: #C11212;
-        color: #fafafa;
+        background-color: white;
+        color: black;
     }
+
+.email a {
+    text-decoration: none;
+    color: black;
+}
+
+/*#menu  {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}*/

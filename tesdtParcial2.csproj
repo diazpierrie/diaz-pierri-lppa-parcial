@@ -118,9 +118,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AfiliadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Domain\Data\AfiliadoDbContext.cs" />
+    <Compile Include="Domain\Data\BaseDataService.cs" />
+    <Compile Include="Domain\Data\IDataService.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Afiliado.cs" />
+    <Compile Include="Models\IdentityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -140,8 +145,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Domain\Business\" />
-    <Folder Include="Domain\Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Afiliado\" />
   </ItemGroup>
   <PropertyGroup>
